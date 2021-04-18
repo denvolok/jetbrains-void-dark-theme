@@ -9,7 +9,7 @@
     "border": "#333841",
     "border-disabled": "#2d3137",
     "text": "#abb2bf",
-    "text-bright": "#bac2d1",
+    "text-bright": "#C9D1DF",
     "bg-main": "#1f1f1f",
     "bg-panels": "#1c1c1c",
     "selected-bg": "#2F2F33",
@@ -20,8 +20,8 @@
     "focused": "#91A2B8",
     "input-bg": "#2B2B2D",
     "match-fg": "#6277FE",
-    "tab-bg": "#363640",
-    "tab-inactive-bg": "#363640"
+    "link-fg": "#6494ed",
+    "tab-bg": "#363640"
   },
   "ui": {
     "*": {
@@ -79,7 +79,8 @@
     },
 
     "ComboBox": {
-      "background": "#212121"
+      "background": "#212121",
+      "nonEditableBackground": "input-bg"
     },
 
     "ComboPopup.border": "1,1,1,1,2d3137",
@@ -225,16 +226,16 @@
     "Settings.Spotlight.borderColor": "accent",
 
     "Table": {
-      "background": "#282c34",
+      "background": "bg-main",
       "stripeColor": "#2c313a",
-      "selectionForeground": "#ffffff",
+      "selectionForeground": "selected-fg",
+      "selectionBackground": "selected-bg",
       "foreground": "text",
       "dropLineColor": "text",
       "focusCellForeground": "text",
       "gridColor": "#5c6370",
       "lightSelectionInactiveForeground": "text",
       "lightSelectionForeground": "text",
-      "selectionBackground": "#3d424b",
       "selectionInactiveForeground": "text",
       "lightSelectionBackground": "#414855",
       "lightSelectionInactiveBackground": "#323844"
@@ -266,7 +267,7 @@
       },
 
       "Header": {
-        "background": "tab-bg",
+        "background": "#2F2F38",
         "inactiveBackground": "selected-bg-inactive"
       },
 
@@ -324,12 +325,16 @@
       },
       "separatorColor": "#2c313a",
       "SidePanel.background": "bg-panels"
+    },
+
+    "Debugger": {
+      "Variables.valueForeground": "link-fg"
     }
   },
 
   "icons": {
     "ColorPalette": {
-      "Checkbox.Background.Default.Dark": "#2F2F33",
+      "Checkbox.Background.Default.Dark": "#2F2F38",
       "Checkbox.Border.Default.Dark": "border",
       "Checkbox.Foreground.Selected.Dark": "text",
       "Checkbox.Focus.Wide.Dark": "#91A2B8",
