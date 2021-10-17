@@ -121,19 +121,6 @@
       "Rose": "#3d1e2b"
     },
 
-    "Label": {
-      "infoForeground": "infoForeground",
-      "foreground": "",
-      "selectedForeground": ""
-    },
-
-    "Link": {
-      "activeForeground": "#6494ed",
-      "hoverForeground": "#6494ed",
-      "pressedForeground": "#6494ed",
-      "visitedForeground": "#6494ed"
-    },
-
     "Notification": {
       "background": "#2B2B2B",
       "borderColor": "border",
@@ -161,8 +148,6 @@
         "errorBorderColor": "#552029"
       }
     },
-
-    "Panel.background": "bg-panels",
 
     "Plugins": {
       "disabledForeground": "#5c6370",
@@ -277,7 +262,6 @@
       "HeaderTab": {
         "hoverBackground": "#323844",
         "hoverInactiveBackground": "#3d424b",
-        "selectedBackground": "#323844",
         "selectedInactiveBackground": "#3d424b"
       }
     },
@@ -338,8 +322,8 @@
   "icons": {
     "ColorPalette": {
       "Checkbox.Background.Default.Dark": "#2F2F38",
-      "Checkbox.Border.Default.Dark": "border",
-      "Checkbox.Foreground.Selected.Dark": "text",
+      "Checkbox.Border.Default.Dark": "#333841",
+      "Checkbox.Foreground.Selected.Dark": "#abb2bf",
       "Checkbox.Focus.Wide.Dark": "#91A2B8",
       "Checkbox.Focus.Thin.Default.Dark": "#91A2B8",
       "Checkbox.Focus.Thin.Selected.Dark": "#91A2B8",
