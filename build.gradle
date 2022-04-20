@@ -1,29 +1,23 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.intellij' version '0.7.2'
+    id 'org.jetbrains.intellij' version '1.2.0'
 }
 
 group 'org.example'
-version '1.3-SNAPSHOT'
+version '1.4-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
 
-dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+intellij {
+    version.set("2022.1")
+    downloadSources.set(true)
+    updateSinceUntilBuild.set(true)
 }
 
-// See https://github.com/JetBrains/gradle-intellij-plugin/
-intellij {
-    version '213.+'
-}
-patchPluginXml {
-    changeNotes """
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>"""
-}
-test {
-    useJUnitPlatform()
-}
+//patchPluginXml {
+//    changeNotes """
+//      Add change notes here.<br>
+//      <em>most HTML tags may be used</em>"""
+//}

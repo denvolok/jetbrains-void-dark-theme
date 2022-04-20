@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>org.example.void-theme</id>
     <name>Void Dark Theme (UI, Editor)</name>
-    <vendor email="denis.volok@protonmail.com">Denis Volok</vendor>
+    <vendor email="denis.volok.dev@pm.me">Denis Volok</vendor>
     <description>Void Dark Theme (UI, Editor)</description>
     <depends>com.intellij.modules.platform</depends>
     <extensions defaultExtensionNs="com.intellij">
